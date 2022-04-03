@@ -36,7 +36,7 @@ export class AppComponent {
     ];
   }
 
-  voltar() {
+  grupo() {
     this.steps = [
       { active: true, name: 'grupo' },
     ];
