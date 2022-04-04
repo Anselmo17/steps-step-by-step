@@ -1,0 +1,6 @@
+<div class="container">
+    <h2> Linha de Step Horizontal</h2>
+    <ul class="progressbar">
+        <li *ngFor="let item of steps" class="{{item.active ? 'active' : ''}} ">{{item.name}}</li>
+    </ul>
+</div>
